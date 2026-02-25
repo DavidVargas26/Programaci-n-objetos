@@ -39,12 +39,12 @@ class Persona {
 }
 
 // Crear instancias de Persona
-const persona1 = new Persona('Juan', '1980-09-10', true);
-const persona2 = new Persona('Juana', '2011-02-10', false);
+const persona1 = new Persona('diana', '1976-12-18', true);
+const persona2 = new Persona('emanuel', '2008-03-28', false);
 
 // Mostrar información de las personas
 console.log("El padre se llama " + persona1.nombre + " y tiene " + persona1.calcularEdad() + " años.");
-console.log("La hija se llama " + persona2.nombre + " y tiene " + persona2.calcularEdad() + " años.");
+console.log("el hijo se llama " + persona2.nombre + " y tiene " + persona2.calcularEdad() + " años.");
 
 // Calcular la edad del padre cuando nació el hijo
 const edadPaternidad = calcularEdadDePaternidad(persona1, persona2);

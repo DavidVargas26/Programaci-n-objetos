@@ -1,0 +1,1 @@
+Consulta `AGENTS.md` como guía principal del repositorio. Mantén el formato vertical 1080×1920 a 30 fps, no inventes contenido de preproducción y sincroniza documentación, código y README. Ejecuta `npm run lint` antes de terminar.
